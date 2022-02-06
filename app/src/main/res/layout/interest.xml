@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/title_profile"
         android:layout_width="87dp"
-        android:layout_height="wrap_content"
+        android:layout_height="27dp"
         android:text="프로필 설정"
         android:textSize="18sp"
         android:fontFamily="@font/notosan_font"
@@ -26,10 +26,9 @@
     <TextView
         android:id="@+id/tv_explan"
         android:layout_width="174dp"
-        android:layout_height="wrap_content"
+        android:layout_height="18dp"
         android:fontFamily="@font/notosan_font"
         android:textColor="#939393"
-        android:textSize="12sp"
         android:text="프로필과 회사 이름을 설정해주세요"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,11 +55,9 @@
     <EditText
         android:id="@+id/ed_p_offname"
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_height="28dp"
         android:hint="기업명"
         android:textColorHint="#939393"
-        android:textSize="14sp"
-        android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/ibtn_profimage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

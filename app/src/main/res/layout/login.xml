@@ -32,7 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tite_login"
-        app:layout_constraintBottom_toTopOf="@id/ed_pw"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="59dp"
@@ -135,7 +134,7 @@
         app:layout_constraintBottom_toTopOf="@id/btn_login"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="322dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="7dp"
         android:layout_marginBottom="50dp"
         android:layout_marginEnd="20dp"
         />
